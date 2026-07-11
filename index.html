@@ -223,41 +223,6 @@
 
         .save-btn { background: #d4af37; color: #000; }
         .close-btn { background: #333; color: #fff; }
-   /* تصميم زر الرجوع للوحة التحكم الرئيسية */
-.hub-back-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    max-width: 440px;
-    margin: 30px auto 10px auto;
-    padding: 15px 20px;
-    background: linear-gradient(135deg, #0d0d0d 0%, #1a1405 100%);
-    border: 1px dashed rgba(212, 175, 55, 0.6);
-    border-radius: 16px;
-    text-decoration: none;
-    color: #d4af37;
-    font-size: 16px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    direction: rtl;
-}
-
-.hub-back-btn:hover {
-    background: linear-gradient(135deg, #121212 0%, #241c08 100%);
-    border-style: solid;
-    border-color: #d4af37;
-    transform: translateY(-2px);
-    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
-}
-
-.hub-back-btn svg {
-    width: 18px;
-    height: 18px;
-    fill: #d4af37;
-}
-
     </style>   
 </head>
 <body>
@@ -429,13 +394,5 @@
         
         loadLocalData();
     </script>
-<!-- زر الرجوع إلى لوحة التحكم الرئيسية (HUB) -->
-<a href="https://a-bforest.github.io/Police-Hub/" class="hub-back-btn">
-    <svg viewBox="0 0 24 24">
-        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
-    </svg>
-    الرجوع للوحة التحكم الرئيسية
-</a>
-
 </body>
 </html>
